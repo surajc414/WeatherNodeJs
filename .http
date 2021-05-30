@@ -1,0 +1,2 @@
+
+    GET "http://api.openweathermap.org/data/2.5/weather?q=azamgarh&appid=e62a359cbd79cb7d8d160bfced2ae5d8";

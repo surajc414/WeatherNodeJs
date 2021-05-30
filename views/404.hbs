@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+    <title>{{title}}</title>
+</head>
+<body>
+<div class="container-fluid main-menu">
+        <div class="row">
+            <div class="col-md-12">
+                    {{>navbar}}
+            </div>
+        </div>
+    
+    </div>
+  
+
+
+    <div class="container main_header">
+        <div class="row">
+            <div class="col-md-12 main_header_left align-items-center">
+
+                    <figure class="err-img">
+                        <img src="/images/404.png" alt="Page Not Found" title="Page Not Found" class="img-fluid">
+                    </figure>
+                    <p>Welcome to Suraj Technical</p>
+                <h1>{{errorMsg}}</h1>
+                <a href="/"><button>Go Back</button></a>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+</div>
+
+    {{>footer}}
+</body>
+</html>
